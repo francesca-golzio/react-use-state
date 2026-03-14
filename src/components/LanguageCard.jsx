@@ -1,4 +1,5 @@
-import languages from '../assets/languages'
+// TEMPORANEAMENTE NON UTILIZZATO
+/* import languages from '../assets/languages'
 
 export default function LanguageCard() {
   const { id, title, description } = languages[0];
@@ -14,3 +15,4 @@ export default function LanguageCard() {
 
 }
 
+ */

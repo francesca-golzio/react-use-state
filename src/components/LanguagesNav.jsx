@@ -1,28 +1,29 @@
-import languages from '../assets/languages'
+// TEMPORANEAMENTE NON UTILIZZATO
+/* import languages from '../assets/languages'
 import { useState } from 'react'
 
 export default function LanguagesNav() {
-  let [stato, aggiornaStato] = useState(0);
+  let [attivo, aggiornaAttivo] = useState(0);
 
   return (
-    
+
     <>
       {
         languages.map((language) => {
           const { id, title } = language;
-          
+
           return (
-            <button 
-            key={id}
-              onClick={() => { aggiornaStato(stato = id); console.log(stato, id); }}>
+            <button
+              key={id}
+              onClick={() => { aggiornaAttivo(attivo = id); console.log(attivo, id) }}>
               {title}
             </button>
           )
         })
-      
       }
     </>
   )
 }
 
 
+ */
