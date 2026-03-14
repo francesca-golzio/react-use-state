@@ -1,4 +1,4 @@
-import languages from './assets/languages'
+import LanguagesNav from './components/LanguagesNav.jsx'
 
 function App() {
 
@@ -7,17 +7,9 @@ function App() {
 
     <>
 
-      {
-        languages.map((language) => {
-          const { id, title } = language;
+      <LanguagesNav />
 
-          return (
-            <button key={id}>
-              {title}
-            </button>
-          )
-        })
-      }
+      
 
     </>
   )
